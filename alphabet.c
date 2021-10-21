@@ -8,7 +8,7 @@ int main()
     {
         // This outputs characters with Aa Bb Cc format
         printf("%c%c ", a, a + 32);
-        a++;
+        ++a;
     }
     return 0;
 }
