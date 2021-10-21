@@ -6,6 +6,7 @@ int main()
     int a = 65, z = 90;
     while(a <= z)
     {
+        // This outputs characters with Aa Bb Cc format
         printf("%c%c ", a, a + 32);
         a++;
     }
